@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 150;
+    background-color: gray;
+
+}
+
+.nav-title{
+    display: flex;
+    align-items: start;
+    /* justify-content: center; */
+    width: 20%;
+    font-size: auto;
+    margin: 10px;
+    margin-left: 30px;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    gap: 20px;
+}
+
+li{
+    display: flex;
+    justify-content: space-evenly;
+}

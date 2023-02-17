@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly; /*centers entire card */
+    margin: 0px auto;
+    padding: 0 10% 0 10%;
+}
+
+.card{
+    width: 80%;
+    border-top:100px solid rgb(86, 190, 255); /* only exists for top border */
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid gray;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+    position: relative;
+    top: -155px; /*compensation for prof pic positioning */
+    padding: 75px 20px 15px 20px;
+}
+
+.prof-pic{
+    width: 150px;
+    position: relative;
+    top: -80px;
+    padding-left: 40px;
+}
+
+.img-icon{
+    height: 20px;
+    justify-content: flex-start;
+    margin-right: 5px;
+}
+
+.settings{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}

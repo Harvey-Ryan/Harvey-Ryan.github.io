@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav-bar">
+            <p class="nav-title">Dojonary</p>
+            <input class="search-bar" type="search" placeholder="Search...">
+            <button onclick="logIn(this)" class="login">Sign In</button>
+        </div>
+        <div class="main-body">
+            <div class="main-left">
+                <div class="def-1">
+                    <div class="left-def">
+                        <p class="word">ninja</p>
+                        <p class="noun"><span class="ital">noun</span></p>
+                        <p class="plural">Plural: <span class="ital">ninjas</span></p>
+                        <button onclick="alert('Ninja was liked')" class="likes">13 Likes</button>
+                    </div>
+                    <p class="definition"> A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjustsu</a></p>
+                </div>
+                <div class="def-2">
+                    <div class="left-def">
+                        <p class="word">ninja</p>
+                        <p class="noun"><span class="ital">noun</span></p>
+                        <p class="plural">Plural: <span class="ital">ninjas</span></p>
+                        <button onclick="alert('Ninja was liked')" class="likes">13 Likes</button>
+                    </div>
+                    <p class="definition"> A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                </div>
+            </div>
+            <div class="main-right">
+                <p class="right-box">Dojonary is defined by <span class="bold">YOU</span>
+                <button onclick="hide(this)" class="add-def">Add Definition</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
